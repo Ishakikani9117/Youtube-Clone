@@ -14,7 +14,7 @@ class App extends Component{
       { params:{
          part:'snippet',
          maxReasults: 5,
-         key: 'AIzaSyA7irBDIhNMcLToborDdHXyLWFjIKWyvj8',
+         key: '[YOUR API KEY]',
          q: searchTerm
           }});
       this.setState({
